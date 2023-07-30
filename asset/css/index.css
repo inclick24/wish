@@ -1,0 +1,141 @@
+body{
+
+  background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);  
+    /* background-image: linear-gradient(180deg, #FF9933 25%, #FFFFFF 25% #138808 50%); */
+    background-repeat: no-repeat;
+    font-family: Signika Negative, Asap, sans-serif;
+    color:white;
+    overflow:hidden;
+  }
+  .dot{
+    width:35px;
+    height:35px;
+    position:absolute;
+    background: url(http://img.babathe.com/upload/specialDisplay/htmlImage/2019/20190104_rose2.png);
+    background-size: 100% 100%;
+  }
+  .dot2{
+    width:35px;
+    height:35px;
+    position:absolute;
+    background: url(http://img.babathe.com/upload/specialDisplay/htmlImage/2019/20190104_rose.png);
+    background-size: 100% 100%;
+  }
+
+  .dot3{
+    width:35px;
+    height:35px;
+    position:absolute;
+    background: url(http://img.babathe.com/upload/specialDisplay/htmlImage/2019/20190104_rose3.png);
+    background-size: 100% 100%;
+  }
+  html, body, #container {width:100%; height:100%; }
+  #logo{ left:50%; top:50%; position:absolute; border-radius:10px; }
+  
+  
+  
+  #DiacoDesignLink,#pens{
+    color: #fff;
+  }
+
+  
+  @keyframes wave {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 40px;
+    }
+  }
+
+  .box-shadow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    position: relative;float: left;width: 414px;padding: 1em;margin: 2em 10px 4em;
+    left:25%;
+    background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.1),0 0 40px rgba(0,0,0,.1) inset}
+  .box-shadow:before,.box-shadow:after {content: "";position: absolute;z-index: -2}
+  .box-shadow p {font-size: 16px;font-weight: bold}
+  /* Rotated Box */
+.rotated {
+  box-shadow: none;-webkit-transform: rotate(-3deg);-moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);-o-transform: rotate(-3deg);transform: rotate(-3deg)}
+
+.rotated > :first-child:before {
+  content: "";position: absolute;z-index: -1;top: 0;bottom: 0;left: 0;right: 0;
+  background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(0,0,0,.1) inset}
+
+  svg {
+    position: relative;
+   }
+image {
+    object-fit: fill;
+   }
+#lk {
+     animation: d 2s linear infinite;
+     transform-origin: 50% 50%;
+    }
+@keyframes d {
+  0% {
+       transform: rotateY(0deg);
+    transform: rotateZ(0deg);
+     }
+  50% {
+        transform: rotateY(10deg);
+    transform: rotateZ(0.5deg);
+      }
+  100% {
+         transform: rotateY(0deg);
+    transform: rotateZ(0deg);
+        }
+    }
+
+
+h1 {
+  background: rgb(35,219,164);
+  background: linear-gradient(81deg, rgba(35,219,164,1) 0%, rgba(68,68,68,1) 62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+  }
+
+h2 {
+  background: rgb(35,219,164);
+  background: linear-gradient(81deg, rgba(35,219,164,1) 0%, rgba(68,68,68,1) 62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+  font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.share {
+  /* height: 73px;
+  background-color: chartreuse;
+  position: absolute;
+  bottom: 9px;
+  right: 100px; */
+  background-color: #398a27;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 0;
+  width: 97%;
+  font-size: 25px;
+  text-shadow: 1px 1px 0 #444;
+
+  box-sizing: border-box;
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+    text-align: center;
+    display: inline-block;
+
+}
